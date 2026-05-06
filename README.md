@@ -1,5 +1,5 @@
-<img width="1251" height="931" alt="Screenshot 2026-05-06 135509" src="https://github.com/user-attachments/assets/e9b8545e-81e5-4e05-8e02-9014a8e2c1b0" />
-<img width="1251" height="931" alt="Screenshot 2026-05-06 135509" src="https://github.com/user-attachments/assets/0bcc09d5-075f-4c80-a84d-dd4e92a00ba5" />
+
+
 # Sentinel-Static-Forensics
 I developed this tool to support law enforcement in the initial phases of a cyber investigation. It automates the extraction of digital fingerprints to ensure evidence integrity and performs static analysis to identify malicious IP addresses and URLs within a secure VirtualBox environment.
 
@@ -27,3 +27,4 @@ Ensure you have Python installed. This tool uses standard libraries, so no exter
 Run the script from your terminal (VS Code, Kali, or CMD) by passing the target file as an argument:
 ```bash
 python sentinel.py <target_file_name>
+<img width="1251" height="931" alt="Screenshot 2026-05-06 135509" src="https://github.com/user-attachments/assets/e9b8545e-81e5-4e05-8e02-9014a8e2c1b0" />
