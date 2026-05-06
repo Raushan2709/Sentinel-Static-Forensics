@@ -6,14 +6,14 @@ import os
 def analyze_file(file_path):
     # Check if file exists to avoid crashes
     if not os.path.exists('V:\AIML\CS1_Keys.pdf'):
-        print(f"Error: File '{'V:\AIML\CS1_Keys.pdf'}' not found.")
+        print(f"Error: File '{'file_path'}' not found.")
         return
 
     # Use raw strings (fr"") to prevent Windows path escape character warnings
-    print(fr"--- Analyzing: {'V:\AIML\CS1_Keys.pdf'} ---")
+    print(fr"--- Analyzing: {'file_path'} ---")
     
     try:
-        with open('V:\AIML\CS1_Keys.pdf', "rb") as f:
+        with open('file_path', "rb") as f:
             data = f.read()
             
             # 1. Evidence Integrity: Generate Digital Fingerprints
