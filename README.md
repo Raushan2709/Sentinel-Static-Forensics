@@ -27,4 +27,3 @@ Ensure you have Python installed. This tool uses standard libraries, so no exter
 Run the script from your terminal (VS Code, Kali, or CMD) by passing the target file as an argument:
 ```bash
 python sentinel.py <target_file_name>
-<img width="1251" height="931" alt="Screenshot 2026-05-06 135509" src="https://github.com/user-attachments/assets/e9b8545e-81e5-4e05-8e02-9014a8e2c1b0" />
